@@ -1,0 +1,385 @@
+/* Escritorio extra grande */
+@media only screen and (min-width: 1200px){
+  body {
+    background: #f3f5fc;
+  }
+  
+  header {
+    display: flex;
+    padding: 0 16px;
+    width: 1200px;
+    margin: 0 auto;
+  }
+  header img {
+    margin-top: 40px;
+  }
+  
+  .formularios {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .formularios form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 8px;
+    margin: 5px;
+  }
+   .formularios form textarea {
+      border-radius: 32px;
+      resize: none;
+   }
+  
+  .encrypt {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .encrypt textarea {
+      background: #f3f5fc;
+      border: 1px solid #f3f5fc;
+      padding: 20px;
+      font-size: 25px;
+      font-family: 'Inter';
+      font-weight: 400;
+  
+  }
+  
+  .encrypt textarea:focus {
+      outline: 0;
+  }
+  .encrypt textarea::placeholder {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0a3871;
+    padding-top: 20px;
+    padding-left: 20px;
+    
+  }
+  
+  .information {
+    
+  }
+  .buttons {
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+      padding: 8px;
+  }
+  
+  .buttonencrypt {
+      margin: 8px;
+      width: 290px;
+      height: 50px;
+      border-radius: 24px;
+      background: #0A3871;
+      color: #FFFFFF;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+  }
+  
+  .buttondecrypt {
+      margin: 8px;
+      width: 290px;
+      height: 50px;
+      border-radius: 24px;
+      background: #D8DFE8;
+      border: 1px solid #0A3871;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+  
+  }
+  .decrypt {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  .decrypt textarea {  
+  
+    /* White */
+  
+    background: #ffffff;
+    /* shadow */
+  
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    font-size: 25px;
+      font-family: 'Inter';
+      font-weight: 400;
+  }
+  
+  .decrypt textarea:focus {
+    outline: 0;
+  }
+  
+  .copybutton {
+    position: absolute;
+    display: flex;
+    width: 150px;
+    height: 50px;
+    margin-top: 670px;
+    background: #FFFFFF;
+    border: 1px solid #0A3871;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter';
+    font-style: normal;
+    line-height: 19px;
+    padding: 8px;
+    border-radius: 24px;
+    justify-content: center;
+    padding-top: 15px;
+  }
+  
+  .imgdesappear {
+    position: absolute;
+    width: 225px;
+    margin-top: 200px;
+  }
+  
+  .footer {
+    background: #535455;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 16px;
+    font-size: 16px;
+    font-family: "Inter";
+    font-weight: 400;
+    color: #ffffff;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .footer a:hover {
+    color: #9b8b30;
+    text-decoration: underline;
+  }
+  
+  .footer p {
+    margin: 8px;
+  }
+}
+
+
+
+/* Tablets y phablets */
+@media only screen and (min-width: 576px) and (max-width: 767px){
+  body {
+    background: #f3f5fc;
+  }
+
+  header {
+    display: flex;
+    padding: 0 16px;
+    width: 767px;
+    margin: 0 auto;
+  }
+
+  header img {
+    margin-top: 20px 20px;
+  
+  }
+
+  .formularios {
+    width: 700px;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .formularios form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 8px;
+    margin: 5px;
+  }
+   .formularios form textarea {
+      border-radius: 32px;
+      resize: none;
+   }
+  
+  .encrypt {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .encrypt textarea {
+      background: #f3f5fc;
+      border: 1px solid #f3f5fc;
+      padding: 20px;
+      font-size: 25px;
+      font-family: 'Inter';
+      font-weight: 400;
+  
+  }
+  
+  .encrypt textarea:focus {
+      outline: 0;
+  }
+  .encrypt textarea::placeholder {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0a3871;
+    padding-top: 20px;
+    padding-left: 20px;
+    
+  }
+  
+  .information {
+    
+  }
+  .buttons {
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+      padding: 8px;
+  }
+  
+  .buttonencrypt {
+      margin: 8px;
+      width: 290px;
+      height: 50px;
+      border-radius: 24px;
+      background: #0A3871;
+      color: #FFFFFF;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+  }
+  
+  .buttondecrypt {
+      margin: 8px;
+      width: 290px;
+      height: 50px;
+      border-radius: 24px;
+      background: #D8DFE8;
+      border: 1px solid #0A3871;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+  
+  }
+  .decrypt {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  .decrypt textarea {  
+  
+    /* White */
+  
+    background: #ffffff;
+    /* shadow */
+  
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    font-size: 25px;
+      font-family: 'Inter';
+      font-weight: 400;
+  }
+  
+  .decrypt textarea:focus {
+    outline: 0;
+  }
+  
+  .copybutton {
+    position: absolute;
+    display: flex;
+    width: 150px;
+    height: 50px;
+    margin-top: 670px;
+    background: #FFFFFF;
+    border: 1px solid #0A3871;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter';
+    font-style: normal;
+    line-height: 19px;
+    padding: 8px;
+    border-radius: 24px;
+    justify-content: center;
+    padding-top: 15px;
+  }
+  
+  .imgdesappear {
+    position: absolute;
+    width: 225px;
+    margin-top: 200px;
+  }
+  
+  .footer {
+    background: #535455;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 16px;
+    font-size: 16px;
+    font-family: "Inter";
+    font-weight: 400;
+    color: #ffffff;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .footer a:hover {
+    color: #9b8b30;
+    text-decoration: underline;
+  }
+  
+  .footer p {
+    margin: 8px;
+  }
+}
+
+/* Teléfonos */
+@media only screen and (max-width: 575px){
+  body {
+    background: #f3f5fc;
+  }
+
+  header {
+    display: flex;
+    padding: 0 16px;
+    width: 575px;
+    margin: 0 auto;
+  }
+
+  header img {
+    margin-top: 40px;
+  }
+}

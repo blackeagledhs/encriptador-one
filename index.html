@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge Encriptador</title>
+    <link rel="stylesheet" href="./src/css/reset.css" />    
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  </head>
+  <body>
+    <header>
+      <div class="caja">
+        <img src="./src/img/logo.png" alt="Logo" />
+      </div>
+    </header>
+    <main>
+      <div class="formularios">
+        <form class="encrypt">
+          <textarea
+            id="textin"
+            cols="50"
+            rows="20"
+            class="id"
+            placeholder="Ingrese su texto aqui"
+          ></textarea>
+          <div class="information">
+            <i class="bi bi-info-circle-fill"></i>
+            Solo letras minúsculas y sin acentos.
+        </div>
+          <div class="buttons">
+          <button type="button" class="buttonencrypt" id="encrypt" onclick="buttonEncrypt()">
+            Encrypt
+          </button>
+          <button type="button" class="buttondecrypt" id="decrypt" onclick="buttonDecrypt()">
+            Decrypt
+          </button>
+        </div>
+        </form>
+
+        <form class="decrypt">
+          <textarea            
+            id="textout"
+            cols="15"
+            rows="25"
+            class="id"
+            readonly="readonly"
+          ></textarea>
+          <button type="button" class="copybutton" id="copyButton" onclick="buttonCopy2()">
+            Copy</button
+          ><span id="copyAnswer"></span>
+          <img class="imgdesappear" id="imgdesappear" src="./src/img/img-desappear.png" alt="Imagen que desaparece">
+        </form>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <p>&copy; Copyright 2022</p>
+        <p><a href="http://github.com/blackeagledhs">Mauro A Vicens</a></p>
+    </div>
+    </footer>
+      
+    <script src="./src/js/app.js"></script>
+  </body>
+</html>
